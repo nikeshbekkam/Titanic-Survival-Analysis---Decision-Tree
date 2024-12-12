@@ -42,21 +42,28 @@ Techniques Used
 This project implements various classification models to predict survival:
 
 ## Logistic Regression: A statistical model used for binary classification.
+
 Decision Tree Classifier: A tree-based model that splits the data based on feature values.
 Random Forest Classifier: An ensemble method that uses multiple decision trees to improve performance.
 
 Additionally, data preprocessing steps like handling missing values, encoding categorical variables, and scaling numerical features are performed.
 
 ## Model Implementation
-## Data Preprocessing: Missing values are handled, and categorical variables (like 'Sex' and 'Embarked') are encoded into numerical formats.
-## Feature Engineering: Additional features such as the passenger's family size (sum of 'SibSp' and 'Parch') are created to improve model performance.
-## Model Training: Various models are trained on the dataset, and hyperparameters are tuned to improve accuracy.
-## Evaluation: Model performance is evaluated using accuracy, confusion matrix, precision, recall, and F1-score.
+## Data Preprocessing:
+Missing values are handled, and categorical variables (like 'Sex' and 'Embarked') are encoded into numerical formats.
+## Feature Engineering:
+Additional features such as the passenger's family size (sum of 'SibSp' and 'Parch') are created to improve model performance.
+## Model Training: 
+Various models are trained on the dataset, and hyperparameters are tuned to improve accuracy.
+## Evaluation:
+Model performance is evaluated using accuracy, confusion matrix, precision, recall, and F1-score.
 ## Results
 Training Accuracy: 100%
 Test Accuracy: 100%
-## Confusion Matrix: A 2x2 matrix showing the number of true positives, true negatives, false positives, and false negatives.
-## Classification Report: Precision, recall, and F1-score metrics are calculated for each class.
+## Confusion Matrix:
+A 2x2 matrix showing the number of true positives, true negatives, false positives, and false negatives.
+## Classification Report:
+Precision, recall, and F1-score metrics are calculated for each class.
 The models performed excellently on this dataset, with perfect accuracy. However, in a real-world scenario, overfitting should be checked to ensure the model generalizes well.
 
 
