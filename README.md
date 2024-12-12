@@ -20,25 +20,43 @@ The main objective of this project is to predict whether a passenger survived or
 ## Dataset Overview
 The Titanic dataset used in this project is publicly available on Kaggle. The dataset contains information about passengers aboard the Titanic, including personal details such as:
 PassengerId: An identifier for each passenger
+
 Pclass: The class of the ticket (1st, 2nd, 3rd)
+
 Name: The name of the passenger
+
 Sex: The gender of the passenger
+
 Age: The age of the passenger
+
 SibSp: Number of siblings or spouses aboard
+
 Parch: Number of parents or children aboard
+
 Ticket: Ticket number
+
 Fare: The fare paid for the ticket
+
 Cabin: The cabin number (if available)
+
 Embarked: The port of embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
+
 Survived: 0 = No, 1 = Yes (the target variable)
-Key Features
+
+## Key Features
 Sex: Gender of the passenger
+
 Age: Age of the passenger
+
 Pclass: Class of the ticket (1st, 2nd, 3rd)
+
 Fare: Fare paid by the passenger
+
 Embarked: Port of embarkation
+
 SibSp: Number of siblings or spouses aboard
-Techniques Used
+
+## Techniques Used
 This project implements various classification models to predict survival:
 
 ## Logistic Regression: A statistical model used for binary classification.
